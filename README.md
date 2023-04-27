@@ -29,7 +29,7 @@ $$p(\mathbf {x} \mid C_{k})={\frac {(\sum _{i=1}^{n}x_{i})!}{\prod _{i=1}^{n}x_{
 
 In order to find the maximizer of the above likelihood function, we take the log of the function and try to maximize it:
 
-$${\displaystyle {\begin{aligned}\log p(C_{k}\mid \mathbf {x} );=\log p(C_{k})+\sum _{i=1}^{n}x_{i}\cdot \log p_{ki}\\= \log p(C_{k}) +\mathbf {w} _{k}^{\top }\mathbf {x} \end{aligned}}}$$
+$${\displaystyle {\begin{aligned}\log p(C_{k}\mid \mathbf {x} ) =\log p(C_{k})+\sum _{i=1}^{n}x_{i}\cdot \log p_{ki}\\= \log p(C_{k}) +\mathbf {w} _{k}^{\top }\mathbf {x} \end{aligned}}}$$
 
 Where ${w} _{k}^{\top }\mathbf {x} $ referes to the covariance matrix of the multivariate distribution
 
