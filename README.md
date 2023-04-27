@@ -22,11 +22,11 @@ For each word x the classifer calculates the probablity **P(x| Y = y).P(Y=y)** f
 
 In a Multivariate Model we assume that the words are not *discrete* variables but *continuous* variables therefore are distributed along a **Multinomial Distribution**. The Likelihood function of a Multivariate Distribution is as follows:
 
-$p(\mathbf {x} \mid C_{k})={\frac {(\sum _{i=1}^{n}x_{i})!}{\prod _{i=1}^{n}x_{i}!}}\prod _{i=1}^{n}{p_{ki}}^{x_{i}}$
+$ p(\mathbf {x} \mid C_{k})={\frac {(\sum _{i=1}^{n}x_{i})!}{\prod _{i=1}^{n}x_{i}!}}\prod _{i=1}^{n}{p_{ki}}^{x_{i}} $
 
 In order to find the maximizer of the above likelihood function, we take the log of the function and try to maximize it:
 
-${\displaystyle {\begin{aligned}\log p(C_{k}\mid \mathbf {x} );=\log p(C_{k})+\sum _{i=1}^{n}x_{i}\cdot \log p_{ki}\\= \log p(C_{k}) +\mathbf {w} _{k}^{\top }\mathbf {x} \end{aligned}}}$
+$ {\displaystyle {\begin{aligned}\log p(C_{k}\mid \mathbf {x} );=\log p(C_{k})+\sum _{i=1}^{n}x_{i}\cdot \log p_{ki}\\= \log p(C_{k}) +\mathbf {w} _{k}^{\top }\mathbf {x} \end{aligned}}} $
 
 Where ${w} _{k}^{\top }\mathbf {x} $ referes to the covariance matrix of the multivariate distribution
 
@@ -36,7 +36,7 @@ This is similar to a Multivariate Model, except individual words are treated as 
 
 The likelihood function is as follows:
 
-${\displaystyle p(\mathbf {x} \mid C_{k})=\prod _{i=1}^{n}p_{ki}^{x_{i}}(1-p_{ki})^{(1-x_{i})}}$
+$ {\displaystyle p(\mathbf {x} \mid C_{k})=\prod _{i=1}^{n}p_{ki}^{x_{i}}(1-p_{ki})^{(1-x_{i})}} $
 
 ### 4) VADER SENTIMENT ANALYSIS
 
