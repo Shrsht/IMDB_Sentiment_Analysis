@@ -1,12 +1,11 @@
 # IMDB_Sentiment_Analysis
 
-The IMDB Review Data Set is a 
-This is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. It contains a set of 25,000 highly polar movie reviews for training and 25,000 for testing. So, predict the number of positive and negative reviews using either classification or deep learning algorithms.
+The IMDB Review Data Set is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. It contains a set of 25,000 highly polar movie reviews for training and 25,000 for testing. So, predict the number of positive and negative reviews using either classification or deep learning algorithms.
 
 This data site was obtained from the following link:
 https://ai.stanford.edu/~amaas/data/sentiment/
 
-In our exploration, we make use of this data set to develop a Sentiment Analysis Model that predicts whether a given review has a 'positive' or 'negative'. 
+In our exploration, we make use of this data set to develop a Sentiment Analysis Model that predicts whether a given review has a 'positive' or 'negative' rating. 
 
 We tried 4 different Machine Learning Models in this exploration:
 
